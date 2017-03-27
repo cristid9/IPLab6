@@ -1,21 +1,32 @@
+import java.util.ArrayList;
+
 public class Triangle extends  AbstractPolygonal {
+    public Triangle() {
+        sides = new ArrayList<>();
+    }
+
     @Override
     public double getPerimeter() {
-        return 0;
+        double perimeter = 0;
+        for (ISides s : sides) {
+            perimeter += s.getDistance();
+        }
+
+        return perimeter;
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return 1; // dummy
     }
 
     @Override
     public int getNumberOfSides() {
-        return 0;
+        return sides.size();
     }
 
     @Override
     public String draw() {
-        return null;
+        return "Triangle";
     }
 }
