@@ -15,4 +15,8 @@ public class Sides implements ISides {
     public List<Point> getPoints() {
         return points;
     }
+
+    public double getDistance() {
+        return GeometryUtility.getDistance(points.get(0), points.get(1));
+    }
 }

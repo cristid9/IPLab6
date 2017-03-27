@@ -1,21 +1,34 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Rectangle extends AbstractPolygonal {
+
+    public Rectangle() {
+        sides = new ArrayList<>();
+    }
+
     @Override
     public double getPerimeter() {
-        return 0;
+        double perimeter = 0;
+        for (ISides s : sides) {
+            perimeter += s.getDistance();
+        }
+
+        return perimeter * 2;
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return sides.get(0).getDistance() * sides.get(1).getDistance();
     }
 
     @Override
     public int getNumberOfSides() {
-        return 0;
+        return sides.size();
     }
 
     @Override
     public String draw() {
-        return null;
+        return "Rectangle";
     }
 }
