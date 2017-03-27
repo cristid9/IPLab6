@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114c320d-6536-4837-b688-c8f7316494a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractCircular.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractPolygonal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Circle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ICircularShape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IPolygonalShape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IShape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ISides.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Rectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sides.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Square.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Triangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CircleTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/RectangleTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/SquareTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TriangleTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CircleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/RectangleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/SquareTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TriangleTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/CircleTest.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/RectangleTest.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/SquareTest.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/TriangleTest.groovy" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,16 +57,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareTest.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SquareTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,11 +74,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircleTest.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/CircleTest.groovy">
+      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="54">
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/CircleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/SquareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectangleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -121,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleTest.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TriangleTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,16 +148,6 @@
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RectangleTest.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/RectangleTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -686,12 +678,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490613420028</updated>
-      <workItem from="1490613423700" duration="2035000" />
+      <workItem from="1490613423700" duration="2164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2035000" />
+    <option name="totallyTimeSpent" value="2164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="680" extended-state="6" />
@@ -895,7 +887,39 @@
     <entry file="file://$PROJECT_DIR$/test/CircleTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
