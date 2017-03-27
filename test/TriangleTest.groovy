@@ -1,0 +1,3 @@
+
+class TriangleTest extends GroovyTestCase {
+}
