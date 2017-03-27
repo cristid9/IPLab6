@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114c320d-6536-4837-b688-c8f7316494a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeometryUtility.java" afterPath="$PROJECT_DIR$/src/GeometryUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ISides.java" afterPath="$PROJECT_DIR$/src/ISides.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rectangle.java" afterPath="$PROJECT_DIR$/src/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sides.java" afterPath="$PROJECT_DIR$/src/Sides.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Triangle.java" afterPath="$PROJECT_DIR$/src/Triangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,16 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/CircleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
@@ -85,6 +72,25 @@
                 <element signature="e#579#580#0" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/AbstractCircular.java" />
         <option value="$PROJECT_DIR$/src/Square.java" />
         <option value="$PROJECT_DIR$/src/Circle.java" />
-        <option value="$PROJECT_DIR$/src/Triangle.java" />
         <option value="$PROJECT_DIR$/test/TriangleTest.groovy" />
         <option value="$PROJECT_DIR$/test/SquareTest.groovy" />
         <option value="$PROJECT_DIR$/test/RectangleTest.groovy" />
@@ -196,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/ISides.java" />
         <option value="$PROJECT_DIR$/src/Sides.java" />
         <option value="$PROJECT_DIR$/src/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/Triangle.java" />
       </list>
     </option>
   </component>
@@ -677,12 +683,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490613420028</updated>
-      <workItem from="1490613423700" duration="2983000" />
+      <workItem from="1490613423700" duration="3164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2983000" />
+    <option name="totallyTimeSpent" value="3164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="680" extended-state="6" />
@@ -765,23 +771,6 @@
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -955,6 +944,23 @@
             <element signature="e#579#580#0" expanded="true" />
             <element signature="e#621#622#0" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
           </folding>
         </state>
       </provider>
